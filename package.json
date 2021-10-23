@@ -1,0 +1,14 @@
+{
+  "name": "remember-game",
+  "version": "1.0.0",
+  "description": "Remeber-Game. You have keep in mind the previous patterns and play them.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
