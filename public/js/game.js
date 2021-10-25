@@ -8,8 +8,9 @@ var started = false;
 var level = 0;
 var w = window.innerWidth;
 
+console.log(w);
 // For mobile and touch devices
-if (w <= 600) {
+if (w <= 1000) {
   document.getElementById("level-title").innerHTML = "Touch anywhere on screen to Start.";
   document.getElementById("restartBtn").classList.remove("hideBtn");
   document.getElementById("rulesBtn").classList.remove("hideBtn");
