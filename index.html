@@ -5,11 +5,13 @@
   <meta charset="utf-8">
   <title>Simon Game</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
   <h1 id="level-title">Press any Key to Start</h1>
+  <button id="rulesBtn" class="hideBtn" onclick="rulesAlert()">Rules</button>
   <div class="container">
     <div lass="row">
 
@@ -32,12 +34,13 @@
       </div>
 
     </div>
-
+    <form action="/" method="post">
+      <button id="restartBtn" class="hideBtn">Restart Game</button>
+    </form>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/game.js" charset="utf-8"></script>
-
 </body>
 
 </html>
